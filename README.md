@@ -3,4 +3,4 @@ Use multiple dark themes from Reddit.
 
 Format | Chrome
 --- | ---
-RES | Yes
+RES | Partial
