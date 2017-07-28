@@ -1,2 +1,18 @@
 {
+  "name": "Reddit Dark Mode",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Use multiple dark themes from Reddit.",
+  "content_scripts": [
+    {
+      "matches": ["http://reddit.com/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "*://reddit.com/*"
+  ]
 }
